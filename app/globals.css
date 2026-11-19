@@ -17,3 +17,16 @@ h1 { margin-bottom: 1.5rem; }
 .card-art { font-size: 3rem; text-align: center; padding: 1rem 0; }
 .card h3 { margin: .5rem 0; }
 .card-meta { display: flex; flex-wrap: wrap; gap: .5rem; font-size: .85rem; color: #666; }
+a.card { display: block; text-decoration: none; color: inherit; transition: transform .15s; }
+a.card:hover { transform: translateY(-3px); }
+
+input {
+  width: 100%; padding: .75rem 1rem; font-size: 1rem;
+  border: 1px solid #ddd; border-radius: 10px; margin-bottom: 1.5rem;
+}
+.empty { text-align: center; color: #666; padding: 2rem 0; }
+
+.back { display: inline-block; margin-bottom: 1rem; color: #ff6b35; text-decoration: none; }
+.detail-art { font-size: 5rem; }
+main h2 { margin: 1.5rem 0 .5rem; }
+main ul, main ol { padding-left: 1.25rem; line-height: 1.8; }
