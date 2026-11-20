@@ -1,5 +1,6 @@
 import RecipeGrid from "./components/RecipeGrid";
 import { recipes } from "./data/recipes";
+export const dynamicParams = false;
 
 export default function Home() {
   return (
